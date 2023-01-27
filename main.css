@@ -1,3 +1,76 @@
-body{
-  background-color: rgb(195, 138, 249);
-}
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 590px;
+    background-color: rgb(238, 131, 131);
+    }
+    .btn-gray {
+      font-size: 40px;
+      width: 100px;
+      height: 100px;
+    }
+    .btn-o {
+      color: white;
+      font-size: 40px;
+      width: 100px;
+      height: 100px;
+      background-color: #DF974C;
+      border: 1px solid black ;
+    }
+    .btn-lg-gray {
+      font-size: 40px;
+      width: 200px;
+      height: 100px;
+    }
+    .btn-Xlg-gray {
+      font-size: 40px;
+      width: 300px;
+      height: 100px;
+    }
+  .row-0 {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    width: 380px;
+    height: 40px;
+    font-family: arial;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+  }
+  .row-1{
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+    width: 400px;
+    height: 100px;
+    background-color: royalblue;
+  }
+  .row-2 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: green;
+  }
+  .row-3 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: blueviolet;
+  }
+  .row-4 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+  }
+  .row-5 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: red;
+  }
